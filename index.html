@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+    <div class="count" id="countdown"></div>
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+    <div class="memory-game-blocks">
+        <div class="game-block " data-technology="ai">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/ai-generated-8201392_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="ai">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/ai-generated-8201392_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block " data-technology="diamond">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/diamond-7421669_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="diamond">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/diamond-7421669_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block " data-technology="html5">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/html5-3384014_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="html5">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/html5-3384014_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block " data-technology="indian">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/indian-8199175_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="indian">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/indian-8199175_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block " data-technology="java">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/java-151343_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="java">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/java-151343_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block " data-technology="logo1">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/logo-1861421_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="logo1">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/logo-1861421_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block " data-technology="logo2">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/logo-2067396_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="logo2">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/logo-2067396_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block " data-technology="logo3">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/logo-2078018_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="logo3">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/logo-2078018_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block " data-technology="logo4">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/logo-2537871_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="logo4">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/logo-2537871_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block " data-technology="mandarin">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/mandarin-7411336_640.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="mandarin">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/mandarin-7411336_640.png" alt="">
+            </div>
+        </div>
+    </div>
+    <audio id="success" src="sounds/goodresult-82807.mp3" preload="auto"></audio>
+    <audio id="fail" src="sounds/fail-234710.mp3"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
