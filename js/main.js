@@ -136,7 +136,7 @@ function shuffle(array) {
     } 
     return array;  
 };
-var seconds   = 6,
+var seconds   = 90,
     countDiv  = document.getElementById("countdown"),
     secondPass,
     countDown = setInterval(function () {
@@ -160,4 +160,5 @@ var seconds   = 6,
         countDiv.innerHTML = 'Game Over';
         
        };
+
     };
